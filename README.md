@@ -1,32 +1,43 @@
 # VVS-skiss 3D
 
-Gratis program för Windows för att skissa VVS-installationer i 3D – badrum, tvättstugor, kök och pannrum i verkliga mått.
+A free Windows app for sketching plumbing and heating installations in 3D – bathrooms, laundry rooms, kitchens and boiler rooms at real scale. Available in **English** and **Swedish** (switch language in the top bar).
 
-**[Ladda ner senaste versionen](https://github.com/antonleigue/VVS-skiss-3D/releases/latest)** – hämta `VVS-skiss-3D.exe` och starta den. Ingen installation behövs och programmet fungerar utan internet.
+**[Download the latest version](https://github.com/antonleigue/VVS-skiss-3D/releases/latest)** – get `VVS-skiss-3D.exe` and run it. No installation needed, and the app works offline.
 
-## Vad kan man göra?
+![Overview](screenshots/en-overview.png)
 
-- **Rum och våningar** i millimeter – snäpp ihop rum, rita egna väggar, lägg in dörrar och fönster.
-- **Utrustning och möbler** – WC, tvättställ, badkar, dusch, radiatorer, golvvärme, varmvattenberedare, tvättmaskin, avslagsback, fördelarskåp med mera. Bygg även **egna objekt** (t.ex. värmepannor) med mallar, egna anslutningar, material och logik med dra-och-släpp-block.
-- **Rör** för KV, VV, VVC, VS1, VS2 och spillvatten (SP) med synligt fall 1–3 %.
-  - Dra från vägg till vägg i 90°, 45° eller fri vinkel, snäpp mot väggar, golv, anslutningar och andra rör.
-  - Rörpar (KV+VV, VS1+VS2) parallellt med valfri c/c.
-  - Rör-i-rör inne i väggen eller synliga rör utanpå.
-  - Material syns på rören: koppar, förkromat, rostfritt, stål, PEX, Alu-PEX, PP, PVC, PE och gjutjärn – med färgade band för systemet.
-  - Enkla och dubbla rörklammer, automatiskt eller manuellt.
-- **Väggvy** – fokusera på en vägg och rita rakt på den.
-- **Kontroll** mot Säker Vatten (2026:1) och branschpraxis, t.ex. mått till tätskikt, genomföringar, avstånd mellan rör och radiatorplacering.
-- **Simulering** av flödesriktning, tryck (bar), klamring och spillvattnets fall.
-- **Mängdlista** över rör, kopplingar och klammer.
-- **PDF-ritningar** från flera vinklar (plan, fasader, vägg, 3D) och projektfiler som går att spara och öppna igen.
+## Features
 
-## Krav
+- **Rooms and floors** in millimetres – snap rooms together, draw your own walls, add doors and windows.
+- **Fixtures and furniture** – WC, washbasin, bathtub, shower, radiators, underfloor heating, water heater, washing machine, utility sink, manifold cabinet and more. Build **custom objects** (e.g. boilers) from templates with your own connections, materials and drag-and-drop block logic.
+- **Pipes** for domestic cold water (KV), domestic hot water (VV), hot water circulation (VVC), heating flow/return (VS1/VS2) and waste water (SP) with a visible 1–3 % fall.
+  - Draw wall to wall at 90°, 45° or any angle; snap to walls, the floor, connections and other pipes.
+  - Pipe pairs (KV+VV, VS1+VS2) side by side at any c/c.
+  - Pipe-in-pipe concealed inside the wall, or exposed pipes on the surface.
+  - Pipes show their material: copper, chrome-plated, stainless, steel, PEX, multilayer, PP, PVC, PE and cast iron – with coloured bands for the system.
+  - Single and double pipe clamps, automatic or manual.
+- **Wall view** – focus on a wall and draw straight onto it.
+- **Rule check** against the Swedish industry rules *Säker Vatten* (2026:1) and common practice, e.g. distances to waterproofing, penetrations, pipe spacing and radiator placement.
+- **Simulation** of flow direction, pressure (bar), clamping and waste water fall.
+- **Bill of quantities** for pipes, fittings and clamps.
+- **PDF drawings** from several angles (plan, elevations, wall views, 3D) and project files you can save and reopen.
 
-- Windows 10 eller 11 (64-bit).
-- Microsoft Edge WebView2 Runtime – finns redan i Windows 11 och de flesta Windows 10. Saknas den visar programmet ett meddelande.
+| | |
+|---|---|
+| ![Simulation](screenshots/en-sim.png) | ![Wall view](screenshots/en-wall.png) |
+| ![Rule check](screenshots/en-chk.png) | ![Object builder](screenshots/en-ob.png) |
 
-Filen är inte kodsignerad, så Windows SmartScreen kan varna första gången. Välj *Mer information → Kör ändå*.
+## Requirements
 
-## Observera
+- Windows 10 or 11 (64-bit).
+- Microsoft Edge WebView2 Runtime – already included in Windows 11 and most Windows 10 installations. If it is missing, the app tells you.
 
-VVS-skiss 3D är ett skissverktyg. Kontrollerna är ett stöd och ersätter inte gällande regler, Säker Vatten-auktorisation eller tillverkarens anvisningar.
+The `.exe` is not code-signed, so Windows SmartScreen may warn the first time. Choose *More info → Run anyway*. A signed version is on its way to the Microsoft Store.
+
+## Privacy
+
+The app collects no personal data. See the [privacy policy](PRIVACY.md).
+
+## Note
+
+VVS-skiss 3D is a sketching tool. The checks are guidance only and do not replace current regulations, Säker Vatten authorisation or the manufacturer's instructions. The system abbreviations (KV, VV, VVC, VS1, VS2, SP) follow Swedish practice.
